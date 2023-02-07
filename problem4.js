@@ -1,26 +1,9 @@
-let name = "T.Maheshwar Rao";
-let school = " Raipur Convent School";
-let grade = " A+";
-let section = " B";
-let rollno = 45;
-let english = 60;
-let mathematics = 80;
-let science = 85;
-let totalmarkes = "245/300";
-let result = "pass";
+//Problem 2: If a person is allowed to drive in India print "Apply for a license" or "NA".
 
-console.log("------------------------------------------");
-console.log("|           ***Report Card***             |");
-console.log("|      Name:-" + name + "                 |");
-console.log("|      School:- " + school + "    |");
-console.log("|      Grade:-" + grade + "               |");
-console.log("|      Section:-" + section + "           |");
-console.log("|      RollNo:-" + rollno + "             |");
-console.log("|      English:-" + english + "           |");
-console.log("|      Mathematics:-" + mathematics + "   |");
-console.log("|      Science:-" + science + "           |");
-console.log("|      Total Markes:-"+totalmarkes+"      |");
-console.log("|      Result:-"+result+"                 |");
-
-
-
+  let age = 30;
+if(age >= 18){
+  console.log("Apply for a license");
+}
+else{
+  console.log("NA");
+}
